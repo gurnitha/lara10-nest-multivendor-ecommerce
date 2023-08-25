@@ -158,3 +158,8 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
 
 
 ## 2. MULTI USERS
+
+#### 2.1 Modify migrations users file
+
+        modified:   README.md
+        modified:   database/migrations/2014_10_12_000000_create_users_table.php
