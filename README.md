@@ -163,3 +163,11 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
 
         modified:   README.md
         modified:   database/migrations/2014_10_12_000000_create_users_table.php
+
+#### 2.2 Drop db and re-create db and run migration
+
+        mysql> DROP DATABASE lara10_nest_multivendor_ecommerce;
+        Query OK, 5 rows affected (0.22 sec)
+
+        mysql> CREATE DATABASE lara10_nest_multivendor_ecommerce;
+        Query OK, 1 row affected (0.02 sec)
