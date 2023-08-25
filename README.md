@@ -145,3 +145,14 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
 
         mysql> CREATE DATABASE lara10_nest_multivendor_ecommerce;
         Query OK, 1 row affected (0.09 sec)
+
+#### 1.3 Run migration to create tables and register a new user
+
+        mysql> SELECT id, name, email FROM users;                                        
+        +----+------------+---------------------+                                        
+        | id | name       | email               |                                        
+        +----+------------+---------------------+                                        
+        |  1 | superadmin | superadmin@mail.com |                                        
+        +----+------------+---------------------+                                        
+        1 row in set (0.00 sec)    
+
