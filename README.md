@@ -171,3 +171,34 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
 
         mysql> CREATE DATABASE lara10_nest_multivendor_ecommerce;
         Query OK, 1 row affected (0.02 sec)
+
+#### 2.3 Register a new user
+
+       mysql> DESC users;
+       +-------------------+-------------------------------+------+-----+---------+----------------+
+       | Field             | Type                          | Null | Key | Default | Extra          |
+       +-------------------+-------------------------------+------+-----+---------+----------------+
+       | id                | bigint unsigned               | NO   | PRI | NULL    | auto_increment |
+       | name              | varchar(255)                  | NO   |     | NULL    |                |
+       | username          | varchar(255)                  | YES  |     | NULL    |                |
+       | email             | varchar(255)                  | NO   | UNI | NULL    |                |
+       | email_verified_at | timestamp                     | YES  |     | NULL    |                |
+       | password          | varchar(255)                  | NO   |     | NULL    |                |
+       | photo             | varchar(255)                  | YES  |     | NULL    |                |
+       | phone             | varchar(255)                  | YES  |     | NULL    |                |
+       | address           | text                          | YES  |     | NULL    |                |
+       | role              | enum('admin','vendor','user') | NO   |     | user    |                |
+       | status            | enum('active','inactive')     | NO   |     | active  |                |
+       | remember_token    | varchar(100)                  | YES  |     | NULL    |                |
+       | created_at        | timestamp                     | YES  |     | NULL    |                |
+       | updated_at        | timestamp                     | YES  |     | NULL    |                |
+       +-------------------+-------------------------------+------+-----+---------+----------------+
+       14 rows in set (0.00 sec)
+
+       mysql> SELECT id, name, username, email, role, status FROM users;
+       +----+------------+----------+---------------------+------+--------+
+       | id | name       | username | email               | role | status |
+       +----+------------+----------+---------------------+------+--------+
+       |  1 | superadmin | NULL     | superadmin@mail.com | user | active |
+       +----+------------+----------+---------------------+------+--------+
+       1 row in set (0.00 sec)
