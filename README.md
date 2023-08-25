@@ -156,3 +156,5 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
         +----+------------+---------------------+                                        
         1 row in set (0.00 sec)    
 
+
+## 2. MULTI USERS
