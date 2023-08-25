@@ -5,7 +5,7 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
 
 ## 1. PROJECT
 
-#### 1.1 Create project
+#### 1.1 Create project with breeze
 
         new file:   .editorconfig
         new file:   .env.example
@@ -140,3 +140,8 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
         new file:   tests/TestCase.php
         new file:   tests/Unit/ExampleTest.php
         new file:   vite.config.js
+
+#### 1.2 Create and connect with db
+
+        mysql> CREATE DATABASE lara10_nest_multivendor_ecommerce;
+        Query OK, 1 row affected (0.09 sec)
