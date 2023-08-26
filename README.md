@@ -208,3 +208,8 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
        λ php artisan make:seeder UsersTableSeeder
         modified:   README.md
         new file:   database/seeders/UsersTableSeeder.php
+
+#### 2.5 Create Data for UsersTableSeeder
+
+        modified:   README.md
+        modified:   database/seeders/UsersTableSeeder.php
