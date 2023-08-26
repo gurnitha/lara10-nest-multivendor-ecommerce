@@ -202,3 +202,9 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
        |  1 | superadmin | NULL     | superadmin@mail.com | user | active |
        +----+------------+----------+---------------------+------+--------+
        1 row in set (0.00 sec)
+
+#### 2.4 Create UsersTableSeeder
+
+       λ php artisan make:seeder UsersTableSeeder
+        modified:   README.md
+        new file:   database/seeders/UsersTableSeeder.php
