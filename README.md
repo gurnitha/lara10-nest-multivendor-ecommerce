@@ -232,3 +232,14 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
         new file:   app/Http/Controllers/AdminController.php
         new file:   resources/views/admin/admin_dashboard.blade.php
         modified:   routes/web.php
+
+#### 2.7 Create dashboard for Vendor
+
+        λ php artisan make:controller VendorController
+
+        INFO  Controller [E:\_WORKSPACE\laragon\www\lara10-nest-multivendor-ecommerce\app/Http/Controllers/VendorController.php] created successfully.
+        
+        modified:   README.md
+        new file:   app/Http/Controllers/VendorController.php
+        new file:   resources/views/vendor/vendor_dashboard.blade.php
+        modified:   routes/web.php
