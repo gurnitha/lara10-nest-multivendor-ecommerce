@@ -221,3 +221,14 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
         modified:   database/factories/UserFactory.php
         modified:   database/seeders/DatabaseSeeder.php
         modified:   database/seeders/UsersTableSeeder.php
+
+#### 2.7 Create dashboard for Admin
+
+        λ php artisan make:controller AdminController
+
+        INFO  Controller [E:\_WORKSPACE\laragon\www\lara10-nest-multivendor-ecommerce\app/Http/Controllers/AdminController.php] created successfully.
+
+        modified:   README.md
+        new file:   app/Http/Controllers/AdminController.php
+        new file:   resources/views/admin/admin_dashboard.blade.php
+        modified:   routes/web.php
