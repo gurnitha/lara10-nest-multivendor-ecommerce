@@ -213,3 +213,11 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
 
         modified:   README.md
         modified:   database/seeders/UsersTableSeeder.php
+
+#### 2.6 Create users fake data using seeder
+
+        modified:   README.md
+        modified:   app/Models/User.php
+        modified:   database/factories/UserFactory.php
+        modified:   database/seeders/DatabaseSeeder.php
+        modified:   database/seeders/UsersTableSeeder.php
