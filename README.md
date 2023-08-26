@@ -238,8 +238,17 @@ Github: https://github.com/gurnitha/lara10-nest-multivendor-ecommerce
         λ php artisan make:controller VendorController
 
         INFO  Controller [E:\_WORKSPACE\laragon\www\lara10-nest-multivendor-ecommerce\app/Http/Controllers/VendorController.php] created successfully.
-        
+
         modified:   README.md
         new file:   app/Http/Controllers/VendorController.php
         new file:   resources/views/vendor/vendor_dashboard.blade.php
         modified:   routes/web.php
+
+#### 2.8 Protecting admin, vendor and user routes
+
+        modified:   README.md
+        modified:   app/Http/Controllers/Auth/AuthenticatedSessionController.php
+        modified:   app/Http/Kernel.php
+        new file:   app/Http/Middleware/Role.php
+        modified:   routes/web.php
+
